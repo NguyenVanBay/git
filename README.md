@@ -58,7 +58,7 @@
     - list tag có đầu là v1.8.5
       > $git tag -l "v1.5.5\*" 
     - tạo annoted tag ở commit gần nhất.
-      > $git tag -a name_tag -m "description tag" *- tag*.
+      > $git tag -a name_tag -m "description tag" *- tag*
       > $git tag name_tag                         *- tag-lw*
       > $git tag -a name_tag code_bam             *- gắn tag có cho commit có mã băm trên*
     - show tag.
@@ -70,6 +70,6 @@
     - Xóa tag trong local.
       > git tag -d tag_name
     - Xóa tag trong remote.
-      > $git push --delete tag_name
+      > $git push --delete git tag_name
 
   - *Branch in git*
