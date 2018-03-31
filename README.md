@@ -19,7 +19,7 @@
   - Rename file trong git
     > $git mv name_1.txt name2.txt 
     
-## xem lịch sử COMMIT
+## Xem lịch sử COMMIT
   **Xem chi tiết thay đổi.**
     > $git log --stat 
     > $git log --pretty=oneline.
