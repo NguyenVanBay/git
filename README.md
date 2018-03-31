@@ -18,6 +18,8 @@
     > git rm bin/\*.txt delete tất cả file .txt trong thư mục bin.
   - Rename file trong git
     > $git mv name_1.txt name2.txt 
+  - Hủy bỏ commit trước.
+    > $git commit -amend
     
 ## Xem lịch sử COMMIT
   **Xem chi tiết thay đổi.**
