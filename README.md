@@ -50,6 +50,7 @@
     - có 2 loại tag trong git
     - tag ta tạo ra chỉ tồn tại ở local. Muốn người khác biết ta sẽ push lên git.
       > $git push name_remote name_tag    *push tag_name*
+      
       > $git push name_remote --tag       *push all tag*
       1. tag.
       2. leightweight_tag.
@@ -59,7 +60,9 @@
       > $git tag -l "v1.5.5\*" 
     - tạo annoted tag ở commit gần nhất.
       > $git tag -a name_tag -m "description tag" *- tag*
+      
       > $git tag name_tag                         *- tag-lw*
+      
       > $git tag -a name_tag code_bam             *- gắn tag có cho commit có mã băm trên*
     - show tag.
       > $git show name_tag
