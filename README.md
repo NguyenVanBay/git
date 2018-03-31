@@ -2,8 +2,9 @@
 
 ## Cơ bản về git :
   **1. Tổng quan**
-  - Mỗi project là 1 repository.
-  - Để tạo 1 repository vào thư mục máy local:
+  - work tree là cấu trúc thư mục làm việc của git
+  - Mỗi project là 1 repository
+  - Để tạo 1 repository vào thư mục máy local
     > $git init
   - thư mục git có file ẩn .git (mặc định là nhánh master)
   **Vòng đời của file trong git**
