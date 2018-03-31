@@ -76,3 +76,24 @@
       > $git push --delete git tag_name
 
   - *Branch in git*
+    - Tạo nhánh trong git.
+     > $git branch name_branch
+    - Đổi nhảnh trong git 
+     > $git checkout name_branch
+    - push nhánh lên github
+     > $git push name_remote name_branch
+    - merge code not conflig.
+     > $git name_remote merge branch_mearch
+    - merge code config.
+     1. để có khu vực merge code cài diffmerge 
+      - git config --global merge.tool diffmerege
+       > $git mergetool
+    - check nhánh merge 
+     > $git branch --merged - *nhánh đã được merge*
+     
+     > $git branch --no-merged - *nhánh chưa được merge*
+     
+     > $git branch -d name_branch_delete - *xóa nhánh đã được merge*
+     
+     > $git branch -D name_branch_delete - *xoa tất cả các nhánh*
+     
